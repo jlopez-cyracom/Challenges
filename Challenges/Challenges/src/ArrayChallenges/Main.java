@@ -44,5 +44,54 @@ public class Main {
 
         System.out.println("\n\n-----------------------------------------\n\n");
 
+
+
+
+
+        //--------------------------------------------------------------------
+        //            Array Challenge #3 - Three Number sum
+        //--------------------------------------------------------------------
+
+        System.out.println("-----------------------------------------");
+        System.out.println("  Array Challenge #3 - Three Number Sum");
+        System.out.println("-----------------------------------------\n");
+        Array3 array3Test = new Array3();
+        //-- Changing the target sum here will alter the results. Don't forget to update the sout on line 62.
+        int[][] threeNumberSum = array3Test.threeNumberSum(array3Test.getArray(), 10);
+
+        System.out.print("Numbers that make up target sum of " + 10 + ": ");
+        for (int i = 0; i < threeNumberSum.length; i++) {
+            System.out.println("");
+            for (int j = 0; j < threeNumberSum[i].length; j++) {
+                System.out.print(threeNumberSum[i][j] + ", ");
+            }
+        }
+
+        System.out.println("\n\n-----------------------------------------\n\n");
+
+
+
+
+
+        //--------------------------------------------------------------------
+        //            Array Challenge #4 - Four Number sum
+        //--------------------------------------------------------------------
+
+        System.out.println("-----------------------------------------");
+        System.out.println("  Array Challenge #4 - Four Number Sum");
+        System.out.println("-----------------------------------------\n");
+        Array4 array4Test = new Array4();
+        //-- Changing the target sum here will alter the results. Don't forget to update the sout on line 62.
+        int[][] fourNumberSum = array4Test.fourNumberSum(array4Test.getArray(), 74);
+
+        System.out.print("Numbers that make up target sum of " + 74 + ": ");
+        for (int i = 0; i < fourNumberSum.length; i++) {
+            System.out.println("");
+            for (int j = 0; j < fourNumberSum[i].length; j++) {
+                System.out.print(fourNumberSum[i][j] + ", ");
+            }
+        }
+
+        System.out.println("\n\n-----------------------------------------\n\n");
     }
 }

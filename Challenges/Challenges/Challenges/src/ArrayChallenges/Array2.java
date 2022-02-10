@@ -12,7 +12,7 @@ public class Array2 {
     }
 
     public int[] twoNumberSum(int[] numList, int targetSum) {
-        int numCheck; //-- Number that we are checking against.
+        int numCheck;
         int counter = 0;
         int num1 = 0;
         int num2 = 0;
